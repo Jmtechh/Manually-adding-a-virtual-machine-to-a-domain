@@ -15,15 +15,15 @@
 
 <h2>Program walk-through:</h2>
 
-One of the first things I did is create a vm dedicated to be a client PC so that it can be later on added to a domain of another vm.
+One of the first steps I took was creating a virtual machine specifically designated as a **client PC**, which I later added to the domain managed by another VM.
 
 <img src="https://i.imgur.com/BCJx2tL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
 
-I then created a vm dedicated to be the domain controller PC. On this vm I installed the Windows 10 server OS so I can access specific domain management tools.
+I then created a virtual machine designated as the **Domain Controller PC**. On this VM, I installed the **Windows Server 10 OS** to gain access to domain management tools and features.
 
 <img src="https://i.imgur.com/kZhk6mZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Once the Windows 10 server OS is installed on the domain vm. I then open Windows and install Active Directory Domain Services to officially make it a domain.
+Once the **Windows Server 10 OS** was installed on the domain VM, I opened Windows and installed **Active Directory Domain Services (AD DS)** to officially promote it to a domain controller.
 
 <img src="https://i.imgur.com/IrUbumC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 

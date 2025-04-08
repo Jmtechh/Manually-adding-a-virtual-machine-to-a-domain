@@ -15,7 +15,11 @@
 
 <h2>Program walk-through:</h2>
 
+One of the first things I did is create a vm dedicated to be a client PC so that it can be later on added to a domain of another vm.
+
 <img src="https://i.imgur.com/BCJx2tL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>   
+
+I then created a vm dedicated to be the domain controller PC. On this vm I installed the Windows 10 server OS so I can access specific domain management tools.
 
 <img src="https://i.imgur.com/kZhk6mZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 

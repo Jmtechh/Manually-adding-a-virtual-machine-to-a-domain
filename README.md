@@ -47,7 +47,11 @@ When I enabled the ICMP on the client vm and the domain vm pinged the IP of the 
 
 <img src="https://i.imgur.com/sYmV3M8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+The next thing I did was on the client vm I went into settings and added the client to the domain of the domain vm by searching the domains name and adding it.
+
 <img src="https://i.imgur.com/UxPTimw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+To confirm that the client vm is apart of the domain I went into the domain vm and opened up Active Directory. From there I went to the computer section which displays all connected devices that have been added to the domain.
 
 <img src="https://i.imgur.com/utmF0wn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 

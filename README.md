@@ -39,7 +39,11 @@ But after the network configurations I was facing a communication problem betwee
 
 <img src="https://i.imgur.com/biZvrna.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+To fix the issue I enabled ICMP on the client side. This enabled will allow pings to be recieved.
+
 <img src="https://i.imgur.com/FbeVJ5Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+When I enabled the ICMP on the client vm and the domain vm pinged the IP of the client vm in the CLI, it then recieved a response.
 
 <img src="https://i.imgur.com/sYmV3M8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 

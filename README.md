@@ -47,6 +47,10 @@ When I enabled the ICMP on the client vm and the domain vm pinged the IP of the 
 
 <img src="https://i.imgur.com/sYmV3M8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<img src="https://i.imgur.com/UxPTimw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/utmF0wn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 
 

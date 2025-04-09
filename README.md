@@ -35,23 +35,23 @@ As shown, I configured the **client VM's network adapter settings** to be on the
 
 <img src="https://i.imgur.com/KKCrcO4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-But after the network configurations I was facing a communication problem between the vm's. When the client vm pinged the IP of the domain vm it was recieving a response. But when the domain vm pinged the client vm there was no response.
+However, after completing the network configurations, I encountered a communication issue between the virtual machines. While the **client VM** was able to successfully **ping** the **domain VM's IP address** and receive a response, the **domain VM** could not receive a response when attempting to ping the **client VM**.
 
 <img src="https://i.imgur.com/biZvrna.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-To fix the issue I enabled ICMP on the client side. This enabled will allow pings to be recieved.
+To resolve the issue, I enabled **ICMP (Internet Control Message Protocol)** on the **client side**, allowing it to receive and respond to ping requests.
 
 <img src="https://i.imgur.com/FbeVJ5Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-When I enabled the ICMP on the client vm and the domain vm pinged the IP of the client vm in the CLI, it then recieved a response.
+After enabling **ICMP** on the **client VM**, the **domain VM** was able to successfully receive a response when it pinged the client VM's IP address via the **command line interface (CLI)**.
 
 <img src="https://i.imgur.com/sYmV3M8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-The next thing I did was on the client vm I went into settings and added the client to the domain of the domain vm by searching the domains name and adding it.
+Next, on the **client VM**, I accessed the system settings and joined it to the **domain** managed by the **domain VM** by searching for the domain name and adding the client to it.
 
 <img src="https://i.imgur.com/UxPTimw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-To confirm that the client vm is apart of the domain I went into the domain vm and opened up Active Directory. From there I went to the computer section which displays all connected devices that have been added to the domain.
+To confirm that the **client VM** was successfully added to the domain, I opened **Active Directory** on the **domain VM**. I then navigated to the **Computers** section, which displays all devices currently connected to the domain.
 
 <img src="https://i.imgur.com/utmF0wn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 

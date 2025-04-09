@@ -27,11 +27,11 @@ Once the **Windows Server 10 OS** was installed on the domain VM, I opened Windo
 
 <img src="https://i.imgur.com/IrUbumC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-Next I configured the domain vm's network adapters settings so that other vm's/devices can communicate with it.
+Next, I configured the **network adapter settings** on the **domain VM** to ensure that other virtual machines and devices could successfully communicate with it.
 
 <img src="https://i.imgur.com/eBpFfNs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-As you can see I configured the clients network adapters settings to be on the same network as the domain vm by assigning a simimilar IP and subnet mask.
+As shown, I configured the **client VM's network adapter settings** to be on the same network as the **domain VM** by assigning a similar **IP address** and **subnet mask**.
 
 <img src="https://i.imgur.com/KKCrcO4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 

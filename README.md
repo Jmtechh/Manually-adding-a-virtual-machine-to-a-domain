@@ -1,6 +1,7 @@
 <h1>Manually-adding-a-virtual-machine-to-a-domain</h1>
 
 <h2>Description</h2>
+The aim of this lab is to put a vm under the control of an existing domain without using DHCP.
 
 <h2>Utilities Used</h2>
 
